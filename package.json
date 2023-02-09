@@ -2,5 +2,12 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "eslint-config-airbnb": "^19.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
   }
 }
